@@ -1,0 +1,45 @@
+/* src/assets/styles/Signup.css */
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #141A2A;
+}
+
+.signup-box {
+  background-color: #1F263D;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 360px;
+}
+
+.signup-title {
+  font-size: 2em;
+  color: white;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.login-link {
+  margin-top: 20px;
+  color: #33A1FD;
+  font-size: 14px;
+  text-align: right;
+}
+
+.login-link span {
+  cursor: pointer;
+}
+
+.login-link span:hover {
+  text-decoration: underline;
+}

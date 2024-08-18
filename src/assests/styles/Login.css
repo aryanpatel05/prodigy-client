@@ -1,0 +1,50 @@
+/* src/assets/styles/Login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #141A2A;
+}
+
+.login-box {
+  background-color: #1F263D;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 360px;
+}
+
+.login-title {
+  font-size: 2em;
+  color: white;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.login-links {
+  margin-top: 20px;
+  color: #33A1FD;
+  font-size: 14px;
+  text-align: right;
+}
+
+.forgot-password {
+  cursor: pointer;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
